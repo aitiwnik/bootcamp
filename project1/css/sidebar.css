@@ -1,0 +1,66 @@
+.sidebar {
+    float: left;
+    width: 300px;
+    margin-right: 16px;
+    box-shadow: 0 0 3px 3px rgba (0, 0, 0, 0.1);
+    border-radius: 4 px;
+
+}
+.list {
+    list-style-type: none;
+    margin-bottom: 20px;
+    
+}
+
+
+.list-item {
+
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+}
+
+.list-item:last-child {
+    border-bottom: 1px solid #cccccc;
+
+
+}
+.list-link {
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+
+
+}
+.list-link:hover {
+    text-indent: 16px;
+}
+.sidebar-icons {
+
+
+
+}
+.icon   {
+    display: block;
+    height: 30px;
+    width: 30px;
+    float: left;
+
+    
+}
+
+.male   {
+    background-image: url(http://placeimg.com/30/30/nature);
+}
+
+.female {
+    background-image: url(http://placeimg.com/30/30/arch);
+}
+
+.team   {
+    background-image: url(http://placeimg.com/30/30/people);
+}
+
+

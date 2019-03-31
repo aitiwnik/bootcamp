@@ -1,0 +1,21 @@
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+.list-item:nth-child(3n)   {
+    color: #0E1116;
+    background-color: #88292F;
+
+}
+.list-item:nth-child(3n+1)  {
+    color: #0E1116;
+    background-color: #5DB7DE;
+}
+.list-item:nth-child(3n+2)  {
+    color: #0E1116;
+    background-color: #0D5D56;  
+}
+.

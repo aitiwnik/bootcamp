@@ -1,0 +1,50 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.parent {
+    outline: 1px solid #333333;
+    background-image: url(http://placeimg.com/640/480/nature);
+    background-size: cover;
+}
+
+.child  {
+    height: 200px;
+    width: 200px;
+    border: 1px solid brown;
+    background-color: #ccc;
+
+}
+.red    {
+    background-color: red;
+    /*float: right;*/
+
+}
+.green {
+    background-color: green;
+    /*float: right;*/
+    /*clear:  right;*/
+}
+.blue   {
+    /*float: right;*/
+    /*clear: right;*/
+    background-color: blue;
+}
+.yellow {
+    /*float: right;*/
+    /*clear: right;*/
+
+
+
+    background-color: yellow;
+    }
+.clearfix::after   {
+    display: block;
+    content: '';
+    clear: both;
+
+}
