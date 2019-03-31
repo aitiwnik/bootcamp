@@ -1,0 +1,80 @@
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: #424242;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.child  {
+    height: 100px;
+    width: 100px;
+    }
+.blue   {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+}
+.lightgreen {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: #139192;
+    transform: translate(-50%,0);
+}
+.pink   {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: deeppink;
+}
+.red    {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-color: orangered;
+    transform: translate(0,-50%);
+
+}
+.orange {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: orange;
+    transform: translate(-50%,-50%);
+}
+
+.viollet    {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    background-color: blueviolet;
+    transform: translate(0,50%);
+    }
+.green  {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: green;
+}
+.yellow{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background-color: yellow;
+    transform: translate(-50%,0);
+}
+.lightblue  {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: deepskyblue;
+}

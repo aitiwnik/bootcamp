@@ -1,0 +1,42 @@
+.content {
+
+    vertical-align: top;
+    float: left;
+    width: 880px;
+
+
+}
+.article {
+    padding: 8px;
+    float: left;
+    width: 432px;
+    outline: 1px solid #333333;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 3px 3px rgba (0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+.article:nth-child(2n) {
+    margin-right: 0;
+
+}
+
+
+
+.article:nth-last-child(-n+2) {
+    margin-bottom: 0;
+    
+}
+.article-img {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+
+}
+
+.article-title {
+    margin-bottom: 8px;
+
+
+}

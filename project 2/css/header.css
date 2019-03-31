@@ -1,0 +1,16 @@
+.menu-item  {
+    display: inline-block;
+    height: 70px;
+   }
+.menu   {
+    text-align: center;
+    text-decoration: none;
+
+
+}
+.menu-item {
+    width: 150px;
+    padding-top: 25px;
+
+}
+

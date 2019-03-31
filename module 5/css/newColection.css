@@ -1,0 +1,24 @@
+.new-collection {
+    margin-top: 1rem;
+    background-color: #e9f0fd;
+}
+
+.price::before {
+    content: '$';
+}
+.list {
+    display: flex;
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.name {
+    
+}
+.price {
+
+
+}

@@ -1,0 +1,16 @@
+@import "header.css";
+@import 'slider.css';
+@import "content.css";
+@import "footer.css";
+@import "newColection.css";
+
+*   {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Chettan', cursive;
+    text-decoration: none;
+    list-style: none;
+}

@@ -1,0 +1,39 @@
+.box    {
+    height: 50px;
+    width: 50px;
+
+}
+.one    {
+    background-color: blue;
+}
+.two    {
+    background-color: darkblue;
+}
+.three  {
+    background-color: yellow;
+}
+.relative   {
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+
+.section    {
+    height: 200px;
+    margin-top: 50px;
+    background-color: darkblue;
+    position: relative;
+}
+.boxe   {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+}
+.absolute   {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}

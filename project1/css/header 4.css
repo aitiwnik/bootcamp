@@ -1,0 +1,43 @@
+.menu {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.list   {
+    float: right;
+    margin: 5px;
+
+}
+.list-item   {
+    font-size: 20px;
+    font-family: Tahoma;
+    margin-right: 10px;
+    float: left;
+    list-style:none;
+
+
+
+}
+.list-link  {
+    text-decoration: none;
+    color: black;
+
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear:both;
+
+}
+.icon   {
+    display: inline-block;
+    height: 34px;
+    width: 98px;
+    background-image: url(../img/icon.png);
+    background-size: cover;
+    vertical-align: middle;
+
+}
+.list-link:hover    {
+    color: #1abc9c;
+}
